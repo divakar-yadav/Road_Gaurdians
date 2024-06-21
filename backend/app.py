@@ -11,6 +11,7 @@ import urllib
 from pymongo import MongoClient
 import ssl
 
+
 app = Flask(__name__)
 
 # app.config["MONGO_URI"] = "mongodb+srv://dkyadav:" + urllib.parse.quote("divakar@Y123")+"@cluster0.esac8cu.mongodb.net"

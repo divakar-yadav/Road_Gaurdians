@@ -1,0 +1,98 @@
+
+  .homepage .stepper-container {
+    margin-top: 20px; /* Adjust the value as needed */
+    width: 100%; /* Optional: ensures stepper is not wider than its container */
+  }
+
+  .sidenav {
+    width: 15%;
+    background-color: #ffffff6b;
+    min-height: 500px;
+    border-right: solid 1px #c0c0c0;
+    padding-top: 15px;
+    position: fixed;
+    top: 66px;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+}
+
+.homepage_body {
+    display: flex;
+}
+img.item_icon {
+  width: 25px;
+}
+.sidenav_item {
+  display: flex;
+  padding: 10px;
+  font-size: 22px;
+}
+.redirect {
+  margin-left: 10px;
+}
+
+.side_nav_utilities_content {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.side_nav_utilities_login {
+  border: 1px solid #fb670c;
+  margin: auto;
+  text-align: center;
+  padding: 14px;
+  border-radius: 2px;
+  margin: 11px;
+  font-weight: 700;
+  color: #fb670c;
+  cursor: pointer;
+}
+
+
+.side_nav_utilities {
+  border-top: 1px solid #aaa4a4;
+  padding-top: 20px;
+}
+
+
+.sidenav_links {
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.video_timeline {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 31px;
+}
+.vid_post {
+  border-top: 1px solid lightgray;
+  width: 180%;
+  margin-top: 35px;
+}
+.vid_creater_info {
+  margin-top: 20px;
+}
+/* .sidenav_item :hover {
+  background-color: lightgray;
+} */
+
+.sidenav_links ul  {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.sidenav_links ul li :hover{
+  background-color: rgb(230, 229, 229);
+  cursor: pointer;
+}

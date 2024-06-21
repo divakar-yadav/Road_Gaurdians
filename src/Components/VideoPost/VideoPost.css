@@ -1,0 +1,135 @@
+.video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sidebar {
+    /* transform: translateY(-50%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    min-height: 500px;
+}
+.icon-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icon-container i {
+    font-size: 24px;
+    color: white;
+}
+
+.icon-container span {
+    display: block;
+    color: white;
+    font-size: 14px;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    text-align: left;
+}
+
+.bottom-text p {
+    margin: 5px 0;
+}
+
+.video-container {
+    width: 300px;
+    aspect-ratio: 9 / 16;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px 0px;
+    height: 500px;
+    display: flex;
+    min-width: 490px;
+}
+.vid_creater_primary_info {
+    display: flex;
+}
+img.vid_creater_primary_info {
+    border-radius: 69px;
+    width: 50px;
+}
+.vid_creater_primary_info_name {
+    font-weight: 800;
+}
+.vid_creater_primary_info_name_text_wrappper {
+    margin-left: 10px;
+}
+.vid_creater_info_post_texts {
+    font-size: 15px;
+}
+.vid_creater_primary_info {
+    display: flex;
+    margin-bottom: 6px;
+}
+.video-container-player {
+    aspect-ratio: 9/16;
+    overflow: hidden;
+}
+
+.moderate-icon-cont {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.dangerous-icon-cont {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.normal-icon-cont {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+
+img.moderate {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    cursor: pointer;
+}
+img.dangerous {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    cursor: pointer;
+}
+
+img.normal {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    cursor: pointer;
+}
+.sidebar span {
+    color: blueviolet;
+    font-weight: 800;
+}
+.vid_creater_primary_info_follow_button {
+    padding: 6px;
+    border: 1px solid #fb670c;
+    color: #fb670c;
+    min-width: 101px;
+    text-align: center;
+    margin: auto;
+    border-radius: 3px;
+    cursor: pointer;
+
+}

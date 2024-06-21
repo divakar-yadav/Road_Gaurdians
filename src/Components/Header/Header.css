@@ -1,0 +1,68 @@
+.header {
+    min-height: 50px;
+    min-width: 100%;
+    background-color: #fff;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px;
+    /* height: 60px; */
+    width: calc(100% - 8px);
+    top: 0px;
+    position: fixed;
+    align-items: center;
+    z-index: 3333333;
+}
+img.header_logo {
+    width: 30px;
+    height: 30px;
+}
+
+.header_name {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 12px;
+    color: #2575f7;
+    margin-top: -9px;
+    font-family: cursive;
+}
+img.header_account_logo {
+    width: 30px;
+}
+.logo_title_wrapper {
+    display: flex;
+    margin-left: 15px;
+}
+.header_account {
+    margin-right: 41px;
+    display: flex;
+    justify-content: space-around;
+    width: 14%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.header_upload {
+    background-color: #fec75b;
+    padding: 9px;
+    min-width: 70px;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+}
+.header_signin {
+    background-color: #fb670c;
+    padding: 9px;
+    min-width: 70px;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+}
+img.header_upload_icon {
+    width: 18px;
+    height: 18px;
+}
